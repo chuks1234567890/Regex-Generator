@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Regity.io</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <div class="head-nav">
+    <img src="images/logo.png" alt="Regity-logo" class="logo">
+    <button class="nav-btn">🌝</button>
+  </div>
+  <div class="error">
+    Empty input
+    <button id="cancel">X</button>
+  </div>
+  <div class="main">
+    <div class="aside">
+      <input type="text" placeholder="Enter text.." id="field">
+      <button id="btn">GO</button>
+    </div>
+    <div class="response">
+   
+      <p class="repo"></p>
+      <div class="more-reg">
+           <span class="span">Specific RegEx&nbsp;</span>
+        <p class="spec-reg"></p>
+        
+      </div>
+    </div>
+    <button onclick="copy()" id="copy">Copy 💾</button>
+    
+  </div>
+  <button id="clear">clear</button>
+  <br>
+  <button id="show">!!</button>
+  <p id="target">Generate any <b>regex</b> pattern for any string you can think of with a click of a BUTTON. <b>Click on the result to see more</b> 🤖😏</p>
+  
+  <button class="py">
+    <img src="images/python.png" alt="python.png">
+  </button>
+  <button class="js">
+  <img src="images/js.png" alt="js.png">
+  </button>
+  <div class="code-snip">
+    <code>
+      <pre>
+ 1  <span class="imp">import</span> <span class="mod">re</span>
+      </pre>
+      <pre>
+ 2  <span class="var">text</span> <span class="eq">=</span> <span class="qu" id="text">' '</span>
+      </pre>
+      <pre>
+ 3  <span class="var">pattern</span> <span class="eq">=</span> <span class="imp">r</span><span class="qu" id="pattern">' '</span>
+      </pre>
+      <pre>
+ 4  <span class="var">find_all</span> <span class="eq">=</span> <span class="imp">re</span><span class="white">.</span><span class="var">findall</span><span class="mod">(</span><span class="white">pattern</span><span class="imp">,</span> <span class="white">text</span><span class="mod">)</span>
+      </pre>
+      <pre>
+ 5  <span class="print">print</span><span class="mod">(</span> <span class="white">find_all</span> <span class="mod">)</span>
+      </pre>
+    </code>
+  </div>
+   <div id="copy-alert">
+  
+   </div>
+<script src='script/main.js'></script>
+</body>
+
+</html>

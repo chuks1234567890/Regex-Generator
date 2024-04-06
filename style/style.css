@@ -1,0 +1,299 @@
+    *{
+      padding: 0;
+      margin: 0;
+      font-family: monospace;
+    }
+    body{
+      background-color: #FFFBEF;
+    }
+    .head-nav{
+      border: 2px solid black;
+      padding: 1px;
+      position: fixed;
+      top: 0;
+      background-color: white;
+      width: 100vw;
+      z-index: 3;
+    }
+    .nav-btn{
+      border: 3px solid black;
+      padding: 7px;
+      width: 40px;
+      position: relative;
+      left: 44%;
+      top: -15px;
+      font-size: 17px;
+      border-radius: 3px;
+      background-color: #FACD3A;
+      outline: none;
+      box-shadow: 4px 4px #CFB2FA;
+    }
+    .nav-btn:active{
+      box-shadow: none;
+    }
+    #head-text{
+      display: inline;
+      text-shadow: 2px 2px #D4A4FF;
+      font-weight: bolder;
+   
+    }
+    .main{
+      border: 2px solid black;
+      padding: 10px;
+      padding-bottom: 15px;
+      width: 80%;
+      margin-left: 8%;
+      height: fit-content;
+      background-color: #F9FFFD;
+     box-shadow: -2px 2px black;
+      margin-top: 50%;
+    }
+    .aside{
+      border: 2px solid black;
+      width: 80%;
+      margin-left: 5%;
+      padding: 12px;
+      margin-top: 10px;
+      
+      background-color: white;
+    }
+    #field{
+      border: none;
+      width: 77%;
+      outline: none;
+      
+    }
+    ::placeholder{
+      color: black;
+      font-weight: 700;
+      font-family: monospace;
+    }
+    #btn{
+      border: 1px solid black;
+      padding: 10px;
+      
+      background-color: #DAFE44;
+      font-weight: bold;
+      box-shadow: 2px 2px black;
+      outline: none;
+    }
+    #btn:active{
+      box-shadow: none;
+    }
+    .response{
+      border: 2px solid black;
+      width: 89%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      
+      margin-left: 5%;
+      margin-top: 5%;
+      height: fit-content;
+      max-height: 100%;
+      background-color: #FACD3A;
+    }
+    .repo{
+      text-align: center;
+      font-family: monospace;
+      font-size: 17px;
+      font-weight: bold;
+      overflow-x: scroll;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .error{
+      border: 2px solid black;
+      
+      background-color: #FF6B6B;
+      padding: 10px;
+      position: absolute;
+      top: 15%;
+      left: 6.5%;
+      width: 80%;
+      font-family: monospace;
+      font-weight: bold;
+      color: #FFFBEF;
+      visibility: hidden;
+    }
+    #show{
+      border: 1px solid black;
+      padding: 5px;
+      width: 30px;
+      
+      margin-left: 8%;
+      margin-top: 5%;
+      background-color: #00FF83;
+ 
+    }
+    #target{
+      border: 1px solid black;
+      padding: 10px;
+      width: 80%;
+      margin-left: 8%;
+      
+      background-color: #FFFEB0;
+      margin-bottom: 20%;
+      box-shadow: 2px 2px black;
+    }
+    #cancel{
+      border: 1px solid black;
+      width: 30px;
+      height: 30px;
+      
+      font-weight: bold;
+      background-color: #DAFE44;
+      position: relative;
+      left: 57%;
+      box-shadow: 2px 2px black;
+    }
+    #cancel:active{
+      box-shadow: none;
+    }
+    #copy{
+      width: 40%;
+      padding: 10px;
+      border: 1px solid black;
+      background-color: #DCC6FF;
+      
+      margin-top: 14px;
+      margin-left: 30%;
+      box-shadow: 2px 2px black;
+      outline: none;
+      font-weight: bold;
+    }
+    #copy:active{
+      box-shadow: none;
+    }
+    #copy-alert{
+ 
+         border: 1px solid black;
+         
+         background-color: #CFACF1;
+         padding: 14px;
+         position: absolute;
+         top: 90%;
+         left: 6.5%;
+         width: 80%;
+         font-family: monospace;
+         font-weight: bold;
+         color: black;
+         visibility: hidden;
+    }
+    .logo{
+      width: 120px;
+      margin-left: 10px;
+      
+      position: relative;
+      top: 4px;
+    }
+    #clear{
+      border: 2px solid black;
+      padding: 5px;
+      margin-left: calc(80% - 1px);
+      background-color:white ;
+      font-weight: bold;
+      outline: none;
+    }
+    .more-reg{
+      overflow: hidden;
+      height: 0;
+      transition: all 0.4s;
+      
+    }
+    .response:hover > .more-reg{
+      height:80px;
+      border-top: 2px solid black;
+      margin-top: 20px;
+      overflow-y: scroll;
+      
+      
+    }
+    .spec-reg{
+      text-align: center;
+      font-family: monospace;
+      font-size: 17px;
+      font-weight: bold;
+      overflow-x: scroll;
+      margin-top: 20px;
+      
+    }
+    .span{
+      border: 2px solid black;
+      color: white;
+      font-weight: bold;
+      background-color: black;
+      border-radius: 0 0 2px 0;
+     
+    }
+    .code-snip{
+      border: 2px solid black;
+      padding: 2px;
+      width: 90%;
+      margin-left: 4%;
+      margin-bottom: 50%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-weight: bold;
+      background-color: #212021;
+      box-shadow: 2px 2px black;
+      color: white;
+      overflow: scroll;
+      transition: height 0.3s;
+    }
+    
+    .imp{
+      color: #2AB0FF;
+    }
+    .mod{
+      color: #FFAC2A;
+    }
+    .var{
+      color: #FF2A2A;
+    }
+    .print{
+      color: #2AB0FF;
+    }
+    .eq{
+      color: #FFF82A;
+    }
+    .white{
+      color: white;
+    }
+    .qu{
+      color: #FF2A9D;
+    }
+    .py{
+      margin-left: 14.5px;
+      position: relative;
+      bottom: -1px;
+      display: inline;
+      border: 2px solid black;
+      background: black;
+      outline: none;
+      transition: all 0.4s;
+    }
+    .js{
+      border: 2px solid black;
+      position: relative;
+      bottom: -1px;
+      display: inline;
+      left: -5px;
+      background: black;
+      outline: none;
+      transition: all 0.4s;
+    }
+    .py img{
+      border: 10px solid black;
+      width: 30px;
+    }
+    .js img{
+      border: 9px solid black;
+      width: 30px;
+      filter: grayscale(100);
+    }
+    .js:hover{
+      border: 2px solid blue;
+    }
+    .py:hover{
+      border: 2px solid blue;
+    }
