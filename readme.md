@@ -15,4 +15,4 @@ Getting started 🌝
 If you find it useful consider buying the full version
 it helps me create more cool tools.
 
-2024 copyright © Paul jessey
+2024 copyright © Paul jessey# Regex-Generator
